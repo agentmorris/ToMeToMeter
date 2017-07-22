@@ -1,6 +1,6 @@
 # ToMeToMeter
 
-The Rotten "ToMeToMeter": downloads all my ratings from Flixster and ranks moves by mow much I like them relative to how much everyone else likes them, then makes a pretty Web page about it:
+The Rotten "ToMeToMeter": downloads a user's ratings from Flixster and ranks movies by mow much that user likes them relative to how much everyone else likes them, then makes a pretty Web page about it:
 
 [http://dmorris.net/projects/tometometer/](http://dmorris.net/projects/tometometer/)
 
