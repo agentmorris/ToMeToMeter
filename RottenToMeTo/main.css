@@ -1,0 +1,184 @@
+﻿@charset "utf-8";
+
+A { text-decoration:none }
+
+a:link { color: #5555ff; }
+a:visited { color: #5555ff; }
+a:active { color: #5555ff; }
+a:hover { color: #5555ff; }
+
+
+p { margin:0px; padding:0px; font-family: helvetica, arial, sans-serif; color: rgb(51, 51, 51); }
+
+div { margin:0px; padding:0px; }
+
+table { border: 0px solid white; }
+
+div.topDiv
+{
+    background-color: rgb(255,255,255);
+    border-color:rgb(200,200,200);
+    border-width:1px;
+    border-style:solid;
+    padding:30px;    
+}
+
+div.contentDiv
+{
+    width:100%;    
+}
+
+body 
+{ 
+    margin:20px; 
+	padding:20px; 
+	background-color: #f5f5f5;;	
+}
+
+p.titleP
+{
+    margin-top:0px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+p.contactP
+{
+    margin-top:15px;
+    font-size: 14px;      
+}
+
+p.overview
+{
+    margin-top:15px;
+    font-size: 14px;      
+}
+
+p.overviewLinkP
+{
+    margin-left:0px;
+    margin-top:10px;
+    font-size: 14px;      
+}
+
+a.overviewLink
+{
+    
+}
+
+div.movieTableDiv
+{
+    margin-top:15px;
+    background-color: rgb(255,255,255);
+    border-color:rgb(200,200,200);
+    border-width:1px;
+    border-style:solid;
+    padding:30px;    
+}
+
+p.movieTableTitleP
+{
+    margin-top:0px;
+    margin-bottom:10px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+
+table.metaTable
+{
+    width:100%;
+    vertical-align:top;
+}
+
+td.metaTd
+{
+    width:48%;
+    vertical-align:top;
+}
+
+tr.metaTr
+{
+
+}
+        
+table.movieTable
+{
+    
+}
+
+tr.movieTR
+{
+    
+}
+
+td.movieRankTD
+{
+    
+}
+
+td.movieThumbTD
+{
+    
+}
+
+td.movieContentTD
+{
+    
+}
+
+p.movieNP
+{
+    font-size: 18px;
+    font-weight: bold;    
+    margin-right:10px;
+}
+
+p.movieThumbP
+{
+    
+}
+
+p.movieScoresP
+{
+     
+}
+
+p.movieTometoP
+{
+    
+}
+
+span.movieRtScoreSpan
+{
+    
+}
+
+span.movieMeScoreSpan
+{
+    
+}
+
+span.movieTometoMeterScore
+{
+    font-weight:bold;   
+}
+
+a.movieTitleHref
+{
+    
+}
+
+a.movieThumbHref
+{
+    
+}
+
+img.movieThumbImg
+{
+    border:1px solid rgb(200,200,200);
+    margin-right:10px;
+}
+

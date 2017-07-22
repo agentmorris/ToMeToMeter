@@ -1,0 +1,33 @@
+<html>
+<body>
+
+<head>
+<title>Dan&rsquo;s Rotten ToMeToMeter</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<div class="topDiv">
+<p class="titleP">Dan's Rotten ToMeToMeter</p>
+<p class="contactP"><a href="http://cs.stanford.edu/~dmorris">Dan Morris</a>, 2014</p>
+
+<p class="overview">For a few years, I&rsquo;ve been habitually rating movies I saw on Flixster, for no reason other than the fact that I love having lists of things.  This trivially supports the operation "give me a list of Dan&rsquo;s favorite and least-favorite movies".  But this doesn&rsquo;t really say much about <i>my</i> taste in movies: everyone who saw &ldquo;The Princess Bride&rdquo; loved it, and everyone who saw &ldquo;Nacho Libre&rdquo; regretted it.  So I got curious about what movies I like <i>more or less than everyone else</i>.</p>
+
+<p class="overview">So I wrote some code to parse the super-convenient JSON output that Flixster provides, which happens to include the Rotten Tomatoes &ldquo;Tomatometer&rdquo; score.  I scaled my Flixster ratings (0.5 stars &rarr; 5 stars) into the 0% &rarr; 100% range, and subtracted either the audience-based or critics-based Rotten Tomatoes score, giving my &ldquo;To<i>Me</i>toMeter&rdquo; score (get it? ToMeToMeter!).  A score of 0 means I liked it the same as whoevever I&rsquo;m comparing to (audience or critics), a score of 10 means I liked it 10 points more, a score of&nbsp;-10 means I liked it 10 points less.</p>
+
+<p class="overview">So here are my favorite and least-favorite movies compared to everyone else.  F(*& the critics and the audience for liking &ldquo;The Shining&rdquo; more than &ldquo;Reign of Fire&rdquo;.</p>
+
+<!--
+<p class="overviewLinkP" style="margin-top:15px;"><a class="overviewLink" href="#topToCritics">Movies I liked more than the critics</a></p>
+<p class="overviewLinkP"><a class="overviewLink" href="#topToAudience">Movies I liked more than the audience</a></p>
+<p class="overviewLinkP"><a class="overviewLink" href="#bottomToCritics">Movies I liked less than the critics</a></p>
+<p class="overviewLinkP"><a class="overviewLink" href="#bottomToAudience">Movies I liked less than the audience</a></p>
+-->
+
+</div>
+
+<div class="contentDiv">
+$CONTENT
+</div>
+
+</body>
+</html>
